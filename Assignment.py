@@ -92,14 +92,14 @@ app.layout = html.Div(children=[
                                         ),
                                         # TASK2: Add a dropdown
                                         # Enter your code below. Make sure you have correct formatting.
-                                        dcc.Dropdown(
+                                       dcc.Dropdown(
                                             id='input-type', 
                                             options=[
-                                                {'Yearly Airline Performance Report':'OPT1'},
-                                                {'Yearly Airline Delay Report':'OPT2'}],
+                                                {'label':'Yearly Airline Performance Report', 'value':'OPT1'},
+                                                {'label':'Yearly Airline Delay Report', 'value':'OPT2'}],
                                                 placeholder='Select a report type',
                                                 style={'width':'80%', 'padding':'3px', 'font-size':20, 'textAlign':'center'}),
-                                            
+                                        
                                         
                                         
                                     # Place them next to each other using the division style
